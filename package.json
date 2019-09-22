@@ -8,6 +8,7 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
+    "run": "node react-scripts.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

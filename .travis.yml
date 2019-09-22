@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t matiastassara/Docker-TravisCI -f Dockerfile.dev .
+  - docker build -t matiastassara/docker-travis -f Dockerfile.dev .
 
 script:
-  - docker run matiastassara/Docker-TravisCI npm run test -- --coverage
+  - docker run matiastassara/docker-travis npm run test -- --coverage
